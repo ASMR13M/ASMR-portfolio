@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Développeur Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">MonPortfolio</div>
+            <div class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#projects">Projets</a>
+                <a href="#skills">Compétences</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-bar"></div>
+<div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container hero">
+            <h1>Je suis Rodrigue AWESSO <span class="typing-effect"></span></h1>
+            <p>Professionnel de la communication digitale en formation</p>
+            <p>Developpeur web & mobile en formation</p>
+            <a href="#projects" class="btn">Voir mes projets</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Bonjour, je m'appelle <span id="nom">AWESSO Samie Magnimwè Rodrigue</span></h3>
+                    <p>Passionné par la création de sites web modernes et interactifs. Actuellement étudiant en communication digitale, développement web & mobile, je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                    <p>J'adore transformer mes idées en projets concrets et explorer les nouvelles technologies du web et de la coomunication digitale.</p>
+                    <a href="CV_Samie_Magnimè_Rodrigue_AWESSO.docx" class="btn" id="cv-btn" style="margin-top: 1.5rem;">Télécharger mon CV</a>
+                </div>
+                <div class="profile-img">
+                    <img src="Images/RO.jpg" alt="Photo de Rodrigue" id="profile-picture">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid" id="projects-container">
+        
+            </div>
+        </div>
+    </section>
+ <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-container">
+                <table class="skills-table">
+                    <tr>
+                        <th>Compétences avancées</th>
+                        <th>En apprentissage</th>
+                    </tr>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>React.js</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Node.js</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>TypeScript</td>
+                    </tr>
+                    <tr>
+                        <td>VS Code</td>
+                        <td>Git avancé</td>
+                    </tr>
+                    <tr>
+                       <td>Mit app Inventor</td>
+                       <td>Flutter</td> 
+                    </tr>
+                    <tr>
+                       <td>Photoshop</td>
+                       <td>Illustrator/ In design</td> 
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-form">
+                <p class="form-intro">Vous avez un projet en tête ? N'hésitez pas à me contacter !</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Portfolio créé par Rodrigue AWESSO /&copy; <span id="current-year"></span> Tous droits réservés</p>
+            <p class="credit">Copyright 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
